@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 40px 20px;
+    text-align: center;
+    background: white;
+}
+
+.logo {
+    font-size: 37px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.cart-icon {
+    color: #ff4757;
+    font-size: 32px;
+}
+
+.handshake {
+    font-size: 27px;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.handshake img {
+    width: 40px;
+}
+
+.handshake-icon {
+    opacity: 0.7;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 16px;
+}
+
+.options-container {
+    background-color: #65D3C6;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.option-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.option-card {
+    background-color: #f1f2f6;
+    padding: 60px;
+    border-radius: 4px;
+    text-align: center;
+    width: 430px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    color: #2d3436;
+}
+
+.icon svg {
+    width: 210px;
+    height: 197px;
+}
+
+.option-title {
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .options-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .option-wrapper {
+        width: 100%;
+    }
+
+    .option-card {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+}

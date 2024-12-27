@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>QuickBuy - Choose Account</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                QuickBuy
+                <span class="cart-icon"><img src="./assets/images/logo.svg" alt="logo"></span>
+            </div>
+            <h1 class="handshake">
+                Choose your account type 
+                <span class="handshake-icon"><img src="./assets/images/handshake.svg" alt="handshake"></span>
+            </h1>
+            <p class="subtitle">Lets create or sign you into the right account</p>
+        </div>
+        <div class="options-container">
+            <!-- store manager -->
+            <div class="option-wrapper">
+                <a href="/login.html">
+                <div class="option-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                </div>
+                </a>
+                <div class="option-title">Store Manager</div>
+            </div>
+            <!-- warehouse manager -->
+            <div class="option-wrapper">
+                <a href="/login.html">
+                <div class="option-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+                </div>
+                </a>
+                <div class="option-title">Warehouse Manager</div>
+            </div>
+            <!-- category manager -->
+            <div class="option-wrapper">
+                <a href="/login.html">
+                <div class="option-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-x"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="17" x2="22" y1="8" y2="13"/><line x1="22" x2="17" y1="8" y2="13"/></svg></div>
+                </div>
+                </a>
+                <div class="option-title">Category Manager</div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Development version -->
-<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-<!-- Production version -->
-<script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </body>
 </html>
